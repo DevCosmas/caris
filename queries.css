@@ -1,0 +1,525 @@
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR DESKTOP/ LAPTOPS AT 1152px
+******************************************************************
+
+*/
+
+@media (max-width: 72em) {
+  .landing--pg-layer {
+    padding-left: 2rem;
+  }
+  .landing--sub-nav {
+    display: none;
+  }
+  .landing--menu-bar {
+    margin-right: 5rem;
+  }
+  .hidden {
+    display: block;
+    margin-right: 1rem;
+  }
+  .landing--logo {
+    margin-left: 8rem;
+  }
+  .landing--intro {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .intro--heading {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #ffff;
+    line-height: 7rem;
+    font-style: italic;
+    text-align: left;
+  }
+
+  .par--img {
+    margin-left: -30rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .intro--para {
+    padding: 0.1rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  /* STYLING THE BRIEF ABOUT SECTION */
+  .features {
+    grid-template-columns: 20rem 20rem 20rem 20rem;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10rem;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .features--ic {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 4rem;
+  }
+  .hero--bold-tag {
+    display: block;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 5rem;
+  }
+}
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 1050px
+******************************************************************
+
+*/
+@media (max-width: 65em) {
+  .intro--heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffff;
+    line-height: 6rem;
+    font-style: italic;
+    text-align: left;
+  }
+  .hero--bold-tag {
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .gallary--container {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: 20rem 20rem;
+    width: 20rem 20rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .features {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10rem;
+    gap: 5rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+  }
+  .about--animation {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    justify-content: center;
+  }
+  .card {
+    min-height: 50rem;
+  }
+  .latest {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+  .buy--bt {
+    top: 40rem;
+    left: 25rem;
+    right: 20rem;
+    height: 7rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .footer--container {
+    background-color: #000;
+    width: 100%;
+    min-height: 30rem;
+    opacity: 0.7;
+    display: grid;
+    grid-template-columns: 20rem 20rem 1fr;
+    gap: 0.5rem;
+    color: #ffff;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .footer--heading,
+  .span--child,
+  .span {
+    text-align: left;
+  }
+  .span--child {
+    margin-left: 3rem;
+  }
+  .footer--contact {
+    font-size: 3rem;
+    padding-left: 0.1rem;
+    text-align: left;
+  }
+  .footer--list,
+  .footer--href {
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 774px (48em)/phone
+******************************************************************
+
+*/
+@media (max-width: 48em) {
+  .intro--heading {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 5rem;
+    margin-left: 0.5rem;
+    font-style: italic;
+    text-align: center;
+  }
+  .logo,
+  .landing--logo {
+    margin-left: 2rem;
+    font-size: 4rem;
+    padding-left: 2rem;
+  }
+  .red--color {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .footer--container {
+    background-color: #000;
+    width: 100%;
+    min-height: 50rem;
+    opacity: 0.7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: left;
+    align-items: stretch;
+    gap: 0.5rem;
+    color: #ffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer--heading,
+  .span--child,
+  .span {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .span--child {
+    margin-left: 0.5rem;
+  }
+  .footer--contact {
+    font-size: 2rem;
+    padding-left: 0.6rem;
+    margin-left: -1rem;
+    text-align: left;
+  }
+  .footer--list,
+  .footer--href {
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .footer--icons {
+    padding-left: 0;
+    margin-left: -1rem;
+  }
+}
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 570px (36em)/phones
+******************************************************************
+
+*/
+@media (max-width: 36em) {
+  .intro--heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 4rem;
+    margin-left: 0.5rem;
+    font-style: italic;
+    text-align: left;
+  }
+  .landing--menu-bar {
+    margin-right: -2rem;
+  }
+  .landing--icon {
+    margin-right: 0.1rem;
+  }
+  .hide {
+    display: none;
+    width: 5rem;
+  }
+  .features {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+  .gallary--container {
+    display: grid;
+    grid-template-columns: 18rem 18rem;
+    grid-template-rows: 20rem 20rem 20rem 20rem;
+    width: 100%;
+    min-height: 50rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .copywright {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 490px (30em)/phones
+******************************************************************
+
+*/
+@media (max-width: 30em) {
+  .landing--logo {
+    margin-left: -4rem;
+  }
+  .intro--heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffff;
+    line-height: 3.5rem;
+    margin-left: 0.5rem;
+    font-style: italic;
+    text-align: left;
+    margin-left: -8rem;
+  }
+  .intro--para {
+    padding-left: 0.1rem;
+    padding-right: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: -2rem;
+  }
+  .footer--container {
+    background-color: #000;
+    width: 100%;
+    min-height: 50rem;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    color: #ffff;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+}
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 400px (25em)/phones
+******************************************************************
+*/
+@media (max-width: 25em) {
+  .logo,
+  .red--color .landing--logo {
+    font-size: 2.8rem;
+  }
+  .logo {
+    margin-left: 3rem;
+  }
+  .red--color {
+    margin-left: 0.5rem;
+  }
+  .landing--icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .hidden {
+    padding-right: 10rem;
+  }
+  .run {
+    display: none;
+  }
+  .intro--heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffff;
+    line-height: 3.5rem;
+    margin-left: 0.5rem;
+    font-style: italic;
+    text-align: left;
+    margin-left: -8rem;
+  }
+  .intro--para {
+    padding-left: -0.5rem;
+    padding-right: 5rem;
+    font-size: 0.3rem;
+    font-weight: 400;
+    margin-left: -2.5rem;
+    line-height: 4rem;
+  }
+  .intro--em,
+  .hero--bold-tag {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 0.3rem;
+    padding: 0 4rem 0 2rem;
+  }
+  .br {
+    display: block;
+  }
+  .gallary--container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 360px (25em)/phones
+******************************************************************
+*/
+@media (max-width: 25em) {
+  .card--overlay {
+    width: 80vw;
+    min-height: 50rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .latest,
+  .card--overlay:hover {
+    background-size: contain;
+  }
+
+  .card {
+    width: 80vw;
+    height: 100%;
+  }
+  .copywright {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .details {
+    margin-left: -3rem;
+    padding-left: 0.5rem;
+  }
+}
+/* 
+
+******************************************************************
+RESPONSIVE SCREEN FOR TABLETS AT 240px (15em)/phones
+******************************************************************
+*/
+@media (max-width: 15em) {
+  .logo,
+  .red--color .landing--logo {
+    font-size: 2.8rem;
+  }
+  .logo {
+    margin-left: -1rem;
+    padding-right: 1rem;
+  }
+  .red--color {
+    margin-left: 0.5rem;
+  }
+  .landing--icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .hidden {
+    padding-right: 10rem;
+    margin-right: 5rem;
+  }
+  .intro--heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffff;
+    line-height: 3.5rem;
+    font-style: italic;
+    text-align: left;
+    margin-left: -10rem;
+  }
+  .intro--para {
+    padding-left: -0.5rem;
+    padding-right: 5rem;
+    font-size: 0.3rem;
+    font-weight: 400;
+    margin-left: -2.5rem;
+    line-height: 4rem;
+  }
+  .intro--em,
+  .br,
+  .hero--bold-tag {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-left: 0.1rem;
+    padding: 0 2rem 0 1rem;
+  }
+  .br {
+    display: block;
+  }
+  .car--feature {
+    margin-left: -3rem;
+  }
+  .features--ic {
+    width: 5rem;
+    height: 5rem;
+  }
+  .feature--title {
+    font-size: 2rem;
+    padding-left: 0.1rem;
+  }
+  .stnces {
+    font-size: 1.5rem;
+  }
+  .details {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .footer--items {
+    margin-left: -5rem;
+  }
+  .footer--heading,
+  .footer--list,
+  .footer--href,
+  .footer--icons {
+    padding-left: 2rem;
+  }
+  .copywright {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
