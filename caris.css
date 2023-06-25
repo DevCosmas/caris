@@ -44,7 +44,7 @@ body {
 
 .landing--pg-layer {
   width: inherit;
-  min-height: ;
+  min-height: 25rem;
   background-color: #000;
   opacity: 0.5;
   display: grid;

@@ -1,14 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M235.58,128.84,160,91.06V48a32,32,0,0,0-64,0V91.06L20.42,128.84A8,8,0,0,0,16,136v32a8,8,0,0,0,9.57,7.84L96,161.76v18.93L82.34,194.34A8,8,0,0,0,80,200v32a8,8,0,0,0,11,7.43l37-14.81,37,14.81A8,8,0,0,0,176,232V200a8,8,0,0,0-2.34-5.66L160,180.69V161.76l70.43,14.08A8,8,0,0,0,240,168V136A8,8,0,0,0,235.58,128.84ZM224,158.24l-70.43-14.08A8,8,0,0,0,144,152v32a8,8,0,0,0,2.34,5.66L160,203.31v16.87l-29-11.61a8,8,0,0,0-5.94,0L96,220.18V203.31l13.66-13.65A8,8,0,0,0,112,184V152a8,8,0,0,0-9.57-7.84L32,158.24v-17.3l75.58-37.78A8,8,0,0,0,112,96V48a16,16,0,0,1,32,0V96a8,8,0,0,0,4.42,7.16L224,140.94Z"></path></svg>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>caris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="caris.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <!--this link is for the icon-->
+  </head>
+
+  <body>
+    <!--THIS IS FOR THE LANDING PAGE, HERO SECTION-->
+    <div class="container">
+      <section class="landing--pg">
+        <div class="landing--pg-layer">
+          <nav class="landing--nav">
+            <div class="landing--logo">
+              <h1 class="logo">Ca<span class="logo red--color">Ris</span></h1>
+            </div>
+
+            <div class="landing--sub-nav">
+              <a class="navigation" href="#">Home</a>
+              <a class="navigation" href="#">About us</a>
+              <a class="navigation" href="#">Partners</a>
+              <a class="navigation" href="#">Gallary</a>
+              <span class="landing--btn">
+                <a class="landing--links-bt" href="#">latest deal</a></span
+              >
+            </div>
+
+            <div class="landing--menu-bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="landing--icon hidden"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="landing--icon run"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+            </div>
+          </nav>
+
+          <div class="landing--intro">
+            <div class="intro">
+              <div class="h--1">
+                <h2 class="intro--heading">SIT COMFORTABLY</h2>
+                <h2 class="intro--heading">BREATHE LUXURY</h2>
+                <h2 class="intro--heading">DRIVE SMOOTHLY</h2>
+              </div>
+              <div class="par--img">
+                <p class="intro--para">
+                  <em class="intro--em"
+                    >with over 5000+ <span class="br">custormer</span>
+                  </em>
+
+                  <span class="heading--img">
+                    <img
+                      src="/car_custormer1.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer2.jpg"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer3.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer4.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer5.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer6.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer7.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer8.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer9.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                    <img
+                      src="/car_custormer10.avif"
+                      alt=""
+                      class="customer--review hide"
+                    />
+                  </span>
+                  <b class="hero--bold-tag"> around the globe</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <main>
+        <div class="features">
+          <div class="car--feature">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="features--ic"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <h4 class="feature-title">durability</h4>
+            <p class="stnces">
+              Lorem ipsum, dolor sit amet consectetur adierunt delectus ad
+              impedit
+            </p>
+          </div>
+          <div class="car--feature">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="features--ic"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"
+              />
+            </svg>
+            <h4 class="feature-title">maintainace</h4>
+            <p class="stnces">
+              Lorem ipsum, dolor sit amet consectetur adierunt delectus ad
+              impedit
+            </p>
+          </div>
+          <div class="car--feature">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="features--ic"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+              />
+            </svg>
+            <h4 class="feature-title">speed</h4>
+            <p class="stnces">
+              Lorem ipsum, dolor sit amet consectetur adierunt delectus ad
+              impedit
+            </p>
+          </div>
+          <div class="car--feature">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="features--ic"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+              />
+            </svg>
+
+            <h4 class="feature-title">secured</h4>
+            <p class="stnces">
+              Lorem ipsum, dolor sit amet consectetur adierunt delectus ad
+              impedit
+            </p>
+          </div>
+        </div>
+        <hr />
+        <article class="about-us">
+          <div class="about--heading">
+            <h3 class="about--heading">latest deals</h3>
+          </div>
+
+          <div class="about--animation">
+            <div class="card--overlay mustang">
+              <div class="card">
+                <img src="/caris_project/must.jpg" alt="" class="latest" />
+                <h3 class="name">mustang</h3>
+                <p class="details"><span class="title">brand:</span>ford</p>
+                <p class="details"><span class="title">country:</span>U.S</p>
+                <p class="details">
+                  <span class="title">category:</span>fossil
+                </p>
+                <p class="details"><span class="title">year:</span>2015</p>
+                <p class="details"><span class="title">price:</span>$5m</p>
+              </div>
+              <button class="buy--bt">buy now</button>
+            </div>
+
+            <div class="card--overlay gwagon">
+              <div class="card">
+                <img src="/pexels-gwagon.jpg" alt="" class="latest" />
+                <h3 class="name">gwagon</h3>
+                <p class="details"><span class="title">brand:</span>mercedes</p>
+                <p class="details">
+                  <span class="title">country:</span>germany
+                </p>
+                <p class="details">
+                  <span class="title">category:</span>fossil
+                </p>
+                <p class="details"><span class="title">year:</span>2018</p>
+                <p class="details"><span class="title">price:</span>$8m</p>
+              </div>
+              <button class="buy--bt">buy now</button>
+            </div>
+
+            <div class="card--overlay telsa">
+              <div class="card">
+                <img src="/model--y.jpg" alt="" class="latest" />
+                <h3 class="name">Model 3</h3>
+                <p class="details"><span class="title">brand:</span>tesla</p>
+                <p class="details"><span class="title">country:</span>U.S</p>
+                <p class="details">
+                  <span class="title">category:</span>electric
+                </p>
+                <p class="details"><span class="title">year:</span>2015</p>
+                <p class="details"><span class="title">price:</span>$50,000</p>
+              </div>
+              <button class="buy--bt">buy now</button>
+            </div>
+
+            <div class="card--overlay mercedes">
+              <div class="card">
+                <img src="/beach.jpg" alt="" class="latest" />
+                <h3 class="name">AMG GT</h3>
+                <p class="details"><span class="title">brand:</span>mercedes</p>
+                <p class="details">
+                  <span class="title">country:</span>germany
+                </p>
+                <p class="details">
+                  <span class="title">category:</span>fossil
+                </p>
+                <p class="details"><span class="title">year:</span>2015</p>
+                <p class="details"><span class="title">price:</span>$5m</p>
+              </div>
+              <button class="buy--bt">buy now</button>
+            </div>
+          </div>
+        </article>
+        <div class="gallary">
+          <div class="gallary--container">
+            <img src="/pexels-mike-b-3729464.jpg" alt="" class="gallary" />
+            <img
+              src="/img_background/landing__bkgrnd.jpg"
+              alt=""
+              class="gallary span--2"
+            />
+            <img src="/car__gallary/car_gallary6.jpg" alt="" class="gallary" />
+            <img src="/img_background/car__img4.png" alt="" class="gallary" />
+            <img src="/pexels-mike-b-3729464.jpg" alt="" class="gallary" />
+            <img
+              src="/img_background/car__img4.png"
+              alt=""
+              class="gallary span--2"
+            />
+            <img src="/car__gallary/car_gallary6.jpg" alt="" class="gallary" />
+            <img
+              src="/img_background/landing__bkgrnd.jpg"
+              alt=""
+              class="gallary"
+            />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer--container">
+          <div class="footer--items">
+            <h3 class="footer--heading">brands</h3>
+            <ul class="un-order--list">
+              <li class="footer--list">ford</li>
+              <li class="footer--list">audi</li>
+              <li class="footer--list">mercedes</li>
+              <li class="footer--list">telsa</li>
+              <li class="footer--list">toyota</li>
+            </ul>
+          </div>
+          <div class="footer--items">
+            <h3 class="footer--heading">category</h3>
+            <a href="#" class="footer--href">sports car</a>
+            <a href="#" class="footer--href">trucks</a>
+            <a href="#" class="footer--href">suvs</a>
+            <a href="#" class="footer--href">electric cars</a>
+            <a href="#" class="footer--href">self driven</a>
+          </div>
+          <div class="footer--items span">
+            <h3 class="footer--heading span--child">contact us</h3>
+            <span class="footer--icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon--4--contact"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+
+              <a href="#" class="footer--contact">+234-811-171-3529</a>
+            </span>
+            <span class="footer--icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                class="icon--4--contact"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+
+              <a href="" class="footer--contact">west africa, nigeria.</a>
+            </span>
+          </div>
+        </div>
+        <div class="copywright">
+          &copy; copyrights <b>2023</b> Caris All right Reserved
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
